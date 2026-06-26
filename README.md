@@ -1,5 +1,16 @@
 # 🎰 Casino Challenge — Multi-Armed Bandits & ε-Greedy (Gamified Workshop)
 
+**Student:** Liggia Cruz | **Student Number:** 9085905  
+**Course:** CSCN8020 — Machine Learning  
+
+## About This Submission
+
+This notebook explores the exploration–exploitation trade-off in Reinforcement Learning through a Multi-Armed Bandit (MAB) simulation. It covers two competitive rounds: a stationary casino where arm probabilities are fixed, and a non-stationary casino where they drift over time. Each round includes experiments with different strategies (fixed ε, decaying ε, constant α), visualizations comparing their performance, and written reflections on the results. The bonus section implements UCB1 and Thompson Sampling as alternatives to ε-greedy.
+
+To run the notebook, open `Casino_Challenge_MAB_Workshop.ipynb` in Jupyter and execute all cells in order. Dependencies are `numpy`, `matplotlib`, `pandas`, and `IPython` — all included in the virtual environment (`venv/`). Activate it first with `venv\Scripts\activate` (Windows) before launching Jupyter.
+
+---
+
 ## 📘 Overview
 This workshop introduces **exploration–exploitation trade-offs** in **Reinforcement Learning** through a gamified **Multi-Armed Bandit (MAB)** challenge.  
 Students will implement ε-greedy policies, compete for the highest rewards, and analyze their strategies in both stationary and non-stationary environments.
